@@ -15,6 +15,7 @@ function! s:ensure(repo)
 endfunction
 
 call s:ensure('arcticicestudio/nord-vim')
+call s:ensure('ghifarit53/tokyonight-vim')
 
 call s:ensure('junegunn/fzf')
 call s:ensure('junegunn/fzf.vim')

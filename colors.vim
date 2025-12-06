@@ -1,9 +1,8 @@
 set termguicolors
 
 set laststatus=2
-let g:nord_cursor_line_number_background = 1
-let g:nord_uniform_status_lines = 1
-let g:nord_italic = 1
-let g:lightline = {'colorscheme' : 'nord'}
+let g:tokyonight_style = 'night' " available: night, storm
+let g:tokyonight_enable_italic = 1
+let g:lightline = {'colorscheme' : 'tokyonight'}
 
-colorscheme nord
+colorscheme tokyonight
