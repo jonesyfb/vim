@@ -1,6 +1,6 @@
-source ~/nixos-dotfiles/config/vim/options.vim
-source ~/nixos-dotfiles/config/vim/keybinds.vim
-source ~/nixos-dotfiles/config/vim/plugins.vim
-source ~/nixos-dotfiles/config/vim/colors.vim
-source ~/nixos-dotfiles/config/vim/fzf.vim
+source ~/dotfiles/vim/options.vim
+source ~/dotfiles/vim/keybinds.vim
+source ~/dotfiles/vim/plugins.vim
+source ~/dotfiles/vim/colors.vim
+source ~/dotfiles/vim/fzf.vim
 
