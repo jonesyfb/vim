@@ -10,3 +10,5 @@ set smartindent
 
 syntax on
 
+set colorcolumn=74
+
