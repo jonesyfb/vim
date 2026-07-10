@@ -2,6 +2,9 @@ set encoding=utf-8
 
 set number
 set relativenumber
+" reserve the sign column up front so LSP diagnostic signs don't trigger
+" a full-window reflow (every line shifting right) when they first arrive
+set signcolumn=yes
 
 set runtimepath^=~/dotfiles/vim
 set runtimepath+=~/dotfiles/vim/after
