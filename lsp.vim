@@ -1,4 +1,8 @@
-let lspOpts = #{autoHighlightsDiags: v:true}
+" maxDiagnostics caps how many diagnostics get decoded/processed per
+" notification; rust-analyzer's initial full-project check can push 100s
+" at once, and decoding all of them synchronously stalls input for a
+" couple seconds right after a file opens.
+let lspOpts = #{autoHighlightDiags: v:true, maxDiagnostics: 50}
 autocmd User LspSetup call LspOptionsSet(lspOpts)
 let lspServers = [
             \ #{
